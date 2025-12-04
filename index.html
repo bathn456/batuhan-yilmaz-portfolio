@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional portfolio showcasing my work, skills, and projects. Full-stack developer passionate about creating innovative solutions.">
+    <meta name="keywords" content="portfolio, web developer, full-stack developer, projects">
+    <meta name="author" content="Batuhan">
+    <title>Batuhan - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span class="logo-text">Portfolio</span>
+                </a>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hi, I'm</p>
+                    <h1 class="hero-title">
+                        <span class="gradient-text" id="typedText">Batuhan</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span class="role-text" id="roleText">Financial AI Engineer</span>
+                    </p>
+                    <p class="hero-description">
+                        I build intelligent systems at the intersection of Finance, AI, and Software Engineering.
+                        Specializing in complex algorithmic solutions and data-driven applications.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/bathn456" target="_blank" aria-label="GitHub" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/batuhan-y%C4%B1lmaz-20a309232/" target="_blank"
+                            aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://x.com/batuhannnyl" target="_blank" aria-label="X (Twitter)"
+                            class="social-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="mailto:ybatu42@gmail.com" aria-label="Email" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-down">
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="profile-image.jpg" alt="Batuhan" id="profileImage">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <h3 class="about-heading">Engineering Intelligent Solutions</h3>
+                    <p>
+                        I am a software developer with a strong focus on algorithmic complexity and financial
+                        technology.
+                        My work spans from building sophisticated valuation models like FCFE DCF tools to implementing
+                        advanced hash collision resolution algorithms.
+                    </p>
+                    <p>
+                        I have deep experience in Python ecosystem, cloud deployments with Firebase and Google Cloud
+                        Run,
+                        and optimizing RAG (Retrieval-Augmented Generation) systems. I love tackling difficult problems
+                        that require a blend of mathematical rigor and creative coding.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number">4+</h4>
+                            <p class="stat-label">Major Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number">10+</h4>
+                            <p class="stat-label">Algorithms Mastered</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number">100%</h4>
+                            <p class="stat-label">Commitment</p>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Work Together</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Tools I work with</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Languages & Core -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="category-title">Languages & Core</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">OOP</span>
+                    </div>
+                </div>
+
+                <!-- Web & Cloud -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="category-title">Web & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Google Cloud Run</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">HTML5/CSS3</span>
+                        <span class="skill-tag">Tkinter</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+
+                <!-- AI & Data -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="category-title">AI & Data</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">RAG Systems</span>
+                        <span class="skill-tag">Vector Search</span>
+                        <span class="skill-tag">Web Scraping</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Yahoo Finance API</span>
+                    </div>
+                </div>
+
+                <!-- Finance & Analysis -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="category-title">Finance & Analysis</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">DCF Valuation</span>
+                        <span class="skill-tag">Financial Modeling</span>
+                        <span class="skill-tag">Market Analysis</span>
+                        <span class="skill-tag">Data Visualization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="Stock Fair Value Calculator" id="project1Image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://stock-fair-value-calculator-batuhanyilmaz.streamlit.app/"
+                                    class="project-link" target="_blank" aria-label="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/bathn456" class="project-link" target="_blank"
+                                    aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Streamlit</span>
+                            <span class="project-tag">Finance</span>
+                        </div>
+                        <h3 class="project-title">Stock Fair Value Calculator</h3>
+                        <p class="project-description">
+                            A professional-grade equity valuation engine processing real-time market data. Leverages
+                            complex FCFE algorithms to derive precise fair value estimates, empowering data-driven
+                            investment strategies.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Deep Learning Hub" id="project2Image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://deeplearningwithbatuhanyilmaz.web.app/" class="project-link"
+                                    target="_blank" aria-label="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/bathn456" class="project-link" target="_blank"
+                                    aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Deep Learning</span>
+                            <span class="project-tag">Web App</span>
+                            <span class="project-tag">AI</span>
+                        </div>
+                        <h3 class="project-title">Deep Learning Hub</h3>
+                        <p class="project-description">
+                            A cutting-edge AI laboratory showcasing advanced neural network architectures. Features
+                            interactive visualizations of deep learning models, demonstrating mastery of complex AI
+                            paradigms.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="PDF Chatbot RAG System" id="project3Image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://pdf-chatbot-rag-systembatuhanyilmaz.streamlit.app/"
+                                    class="project-link" target="_blank" aria-label="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/bathn456" class="project-link" target="_blank"
+                                    aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">Streamlit</span>
+                            <span class="project-tag">Hybrid Search</span>
+                        </div>
+                        <h3 class="project-title">PDF Chatbot RAG System</h3>
+                        <p class="project-description">
+                            An enterprise-level RAG system architected for high-precision document intelligence.
+                            Utilizes Hybrid Search (BM25 + Vector) and semantic chunking to eliminate hallucinations and
+                            deliver context-aware responses.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="project4.jpg" alt="Finance AI Analyst" id="project4Image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://finance-aianalystbatuhanyilmaz.streamlit.app/" class="project-link"
+                                    target="_blank" aria-label="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/bathn456" class="project-link" target="_blank"
+                                    aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Finance</span>
+                            <span class="project-tag">AI</span>
+                            <span class="project-tag">Streamlit</span>
+                        </div>
+                        <h3 class="project-title">Finance AI Analyst</h3>
+                        <p class="project-description">
+                            An autonomous financial analyst powered by generative AI. Synthesizes vast amounts of
+                            financial data to generate actionable insights, mimicking the workflow of top-tier equity
+                            research analysts.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's create something amazing together</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about your project</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be
+                        part of your vision. Feel free to reach out!
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:ybatu42@gmail.com">ybatu42@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>İstanbul, Türkiye</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+905517065203">+90 551 706 5203</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <a href="https://github.com/bathn456" target="_blank" aria-label="GitHub" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/batuhan-y%C4%B1lmaz-20a309232/" target="_blank"
+                            aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://x.com/batuhannnyl" target="_blank" aria-label="X (Twitter)"
+                            class="social-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Tell me about your project..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Batuhan. All rights reserved.</p>
+                <p class="footer-tagline">Crafted with <i class="fas fa-heart"></i> and lots of coffee</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
